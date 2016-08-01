@@ -32,7 +32,7 @@ echo -e ' ';
 echo -e '\e[1m\e[32m-> A fazer UPDATE...\e[0m';
 	sudo apt-get update;
 echo -e '\e[1m\e[32m-> A instalar as dependências...\e[0m';
-	sudo apt-get install x11vnc xinit xvfb libxcursor1 ca-certificates bzip2;
+	sudo apt-get install x11vnc xinit xvfb libxcursor1 ca-certificates bzip2 curl;
 echo -e '\e[1m\e[32m-> A fazer UPDATE aos Certificados CA...\e[0m';
 	sudo update-ca-certificates;
 echo -e '\e[1m\e[32m-> A instalar o pactote libglib2.0-0...\e[0m';
@@ -59,7 +59,7 @@ echo -e '\e[1m\e[32m-> A remover o .RUN do TeamSpeak3-Client-linux_amd64...\e[0m
         rm -rf TeamSpeak3-Client-linux_amd64-3.0.18.2.run;
 echo -e '\e[1m\e[32m-> A copiar o plugin do TS3SoundBoard para a diretoria de plugins do TeamSpeak3-Client-linux_amd64...\e[0m';
         cp libsoundbot_plugin.so /opt/ts3soundboard/TeamSpeak3-Client-linux_amd64/plugins;
-echo -e '\e[1m\e[32m-> A instalar o Youtube-DL';
+echo -e '\e[1m\e[32m-> A instalar o Youtube-DL\e[0m';
         curl https://yt-dl.org/latest/youtube-dl -o /usr/local/bin/youtube-dl;
         chmod a+rx /usr/local/bin/youtube-dl;
 echo -e '\e[1m\e[32m-> A escrever o Youtube-DL no ficheiro config.ini';
