@@ -4,14 +4,13 @@ echo -e ' ';
 
 echo -e '\e[1m\e[32mScript Developed by:\e[0m';
 
-echo -e ' ';
+echo -e ' ';                                                  
 
-echo -e '\e[1m\e[31m    ____  _  _ _____ _______  __\e[0m';
-echo -e '\e[1m\e[31m   |  _ \| || |_   _|___ /\ \/ /\e[0m';
-echo -e '\e[1m\e[31m   | |_) | || |_| |   |_ \ \  / \e[0m';
-echo -e '\e[1m\e[31m   |  __/|__   _| |  ___) |/  \ \e[0m';
-echo -e '\e[1m\e[31m   |_|      |_| |_| |____//_/\_\ \e[0m';
-echo -e '\e[1m\e[32m(SysAdmin and Amateur PHP Developer)\e[0m';
+echo -e '\e[1m\e[31m    _   _                      _            ___                   _ _         \e[0m';
+echo -e '\e[1m\e[31m   /_\ | |_____ ____ _ _ _  __| |_ _ ___   / __|__ _ _ ___ ____ _| | |_  ___  \e[0m';
+echo -e '\e[1m\e[31m  / _ \| / -_) \ / _` | ' \/ _` | '_/ -_) | (__/ _` | '_\ V / _` | | ' \/ _ \ \e[0m';
+echo -e '\e[1m\e[31m /_/ \_\_\___/_\_\__,_|_||_\__,_|_| \___|  \___\__,_|_|  \_/\__,_|_|_||_\___/ \e[0m';
+echo -e '\e[1m\e[32m Junior Web Developer \e[0m';
 
 echo -e ' ';
 
@@ -43,7 +42,7 @@ echo -e '\e[1m\e[32m-> A dar permição 777 à diretoria /opt...\e[0m';
         sudo chmod 777 /opt;
         cd /opt;
 echo -e '\e[1m\e[32m-> A fazer o download do TS3SoundBoard...\e[0m';
-        wget http://alexcarvalho.pt/files/ts3soundboardbot-0.9.5.tar.bz2;
+        wget http://www.alexcarvalho.pt/repo/ts3soundboardbot-0.9.5.tar.bz2;
 echo -e '\e[1m\e[32m-> A descompactar o ficheiro do TS3SoundBoard (que contem a pasta /opt/ts3soundboard)...\e[0m';
         tar -xf ts3soundboardbot-0.9.5.tar.bz2;
 echo -e '\e[1m\e[32m-> A remover o ficheiro original (compactado)...\e[0m';
