@@ -1,4 +1,4 @@
-# ts3soundboard-installer
+# TS3Soundboard Installer
 TS3SoundBoard Installer commented in Portuguese
 # Instalation:
 apt-get install git;
