@@ -5,7 +5,7 @@
 
 # TS3Soundboard Installer
 TS3SoundBoard Installer commented in Portuguese
-# Instalation:
+# Installation:
 apt-get install git;
 git clone https://github.com/alexcarvalhodev/ts3soundboard-installer.git;
 cd ts3soundboard-installer/;
