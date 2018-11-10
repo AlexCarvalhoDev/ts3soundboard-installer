@@ -8,8 +8,10 @@ TS3SoundBoard Installer commented in Portuguese.
 #### This is a outdated script for installing sinusbot, if you want the latest verision use [Sinusbot Installer](https://sinusbot-installer.de).
 
 # Installation:
+```bash
 apt-get install git;
 git clone https://github.com/alexcarvalhodev/ts3soundboard-installer.git;
 cd ts3soundboard-installer/;
 chmod +x ts3soundboard_installer.sh;
 ./ts3soundboard_installer.sh;
+```
