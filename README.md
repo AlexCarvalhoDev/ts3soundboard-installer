@@ -5,7 +5,7 @@
 
 # TS3Soundboard Installer
 TS3SoundBoard Installer commented in Portuguese.
-#### This is a outdated script for installing sinusbot, if you want the latest verision use [Sinusbot Installer](https://sinusbot-installer.de)
+#### This is a outdated script for installing sinusbot, if you want the latest verision use [Sinusbot Installer](https://sinusbot-installer.de).
 
 # Installation:
 apt-get install git;
